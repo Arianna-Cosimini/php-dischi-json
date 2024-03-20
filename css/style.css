@@ -1,0 +1,25 @@
+
+
+#content-disk{
+    gap: 20px;
+}
+
+
+#disk{
+    width: calc(100% / 3 - 20px);
+    background-color: black;
+
+    text-align: center;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+nav a img{
+    width: 50px;
+}
+
+img{
+    width: 100%;
+}
