@@ -20,7 +20,13 @@
 <body>
 
     <div id="app">
-
+    <div v-for="disk in disks" class="disk">
+            <img :src="disk.poster" alt="Poster">
+            <h2>{{ disk.title }}</h2>
+            <p>{{ disk.author }}</p>
+            <p>{{ disk.year }}</p>
+            <p>{{ disk.genre }}</p>
+        </div>
     </div>
 
 
